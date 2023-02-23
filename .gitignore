@@ -1,0 +1,23 @@
+# Ignore everything
+*
+!*/
+
+# # But not these files...
+# !script.pl
+# !template.latex
+!.gitignore
+!galerionsedits.esp
+!OrderOfTheBook.esp
+
+!MWSE/mods/AlchemyExpanded/main.lua
+!MWSE/mods/AlchemyExpanded/mcm.lua
+!MWSE/mods/EnchantingExpanded/main.lua
+!MWSE/mods/EnchantingExpanded/mcm.lua
+
+
+# # ...even if they are in subdirectories
+# !*/
+
+# # if the files to be tracked are in subdirectories
+# !*/a/b/file1.txt
+# !*/a/b/c/*
